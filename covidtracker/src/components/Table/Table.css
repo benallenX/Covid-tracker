@@ -1,0 +1,33 @@
+.table {
+    margin-top: 20px;
+    overflow: scroll;
+    height: 400px;
+    color:#101010;
+    font-weight: 600;
+}
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd){
+    background-color: #f3f2f8;
+}
+.table tr:nth-child(even){
+    background-color: #A9A9A9;
+}
+
+.table tr:nth-of-type(1) {
+    color:#990000;
+}
+
+.info-flag img {
+    width: 100px;
+    border-radius: 5px;
+}
+
