@@ -15,7 +15,7 @@
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
     "react-leaflet": "^3.0.5",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -25,10 +25,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
